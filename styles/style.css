@@ -64,6 +64,7 @@ ol {
 .search-form {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .content__list-container {
@@ -176,11 +177,6 @@ ol {
   white-space: nowrap;
 }
 
-.search-form {
-  display: flex;
-  width: 100%;
-}
-
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
@@ -195,6 +191,9 @@ ol {
   width: fit-content;
   position: relative;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .search-form__textfield {
@@ -244,13 +243,6 @@ ol {
 
 input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   display: block;
-}
-
-.search-form__label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
 }
 
 .search-form__label:hover .search-form__label-text {
