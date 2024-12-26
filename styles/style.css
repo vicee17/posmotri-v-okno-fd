@@ -52,7 +52,7 @@ ol {
 }
 
 .content {
-  max-width: 1140px;
+  max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-flow: row;
@@ -71,7 +71,6 @@ ol {
   position: relative;
   height: 298px;
   overflow-y: auto;
-  overflow-x: hidden;
 }
 
 .content__list {
@@ -83,20 +82,18 @@ ol {
 }
 
 .content__details {
-  max-height: 534px;
-  width: 399px;
+  width: 100%;
 }
 
 .result__video-container {
   width: 711px;
-  height: 402px;
-  padding-bottom: 16px;
+  height: 386px;
+  margin-bottom: 16px;
   position: relative;
 }
 
 .result {
   align-self: end;
-  max-height: 456px;
   width: 100%;
 }
 
@@ -119,7 +116,7 @@ ol {
 }
 
 .content__video-card-title {
-  max-width: 250px;
+  max-width: 260px;
   text-overflow: ellipsis;
   overflow: hidden;
   text-wrap: nowrap;
@@ -306,11 +303,11 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   background-color: rgba(84, 80, 80, 1);
 }
 
-.content__list-item:active {
+.content__card-link:active {
   background-color: rgba(84, 80, 80, 1);
 }
 
-.content__list-item:hover {
+.content__card-link:hover {
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
   text-decoration-style: solid;
